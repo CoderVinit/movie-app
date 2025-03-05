@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  padding:4.5rem;
+}
+
+.filter-container{
+  margin-top:1.5rem;
+  background-color:#DCDCDC;
+  padding:10px;
+  border-radius:5px;
+}
+
+
+.filter-container h2{
+  font-family:sans-serif;
+  margin-bottom:8px;
+}
+
+.btn{
+  border:none;
+  background:#A9A9A9;
+  border-radius:5px;
+  padding:8px;
+  cursor:pointer;
+}
+
+.active{
+  background:gray;
+}
+
+
+
