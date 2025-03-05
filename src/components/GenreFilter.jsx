@@ -1,18 +1,6 @@
 import React, { useState } from "react";
 
-const genres = [
-  "Drama",
-  "Crime",
-  "Action",
-  "Fantasy",
-  "Western",
-  "Science Fiction",
-  "Thriller",
-  "War",
-  "Animation",
-];
-
-const GenreFilter = () => {
+const GenreFilter = ({genres}) => {
 
     const [activeButton,setActiveButton] = useState(null)
 
